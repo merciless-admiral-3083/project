@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import emailjs from 'emailjs-com';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -22,13 +23,14 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
-    setFormStatus({ submitted: true, success: true, message: 'Message sent successfully!' });
-    
-    setTimeout(() => {
-      setFormData({ name: '', email: '', subject: '', message: '' });
-      setFormStatus(null);
-    }, 3000);
+    emailjs.send('service_ixg47id', 'template_tcqoust', formData, '2ycR_5RzyrTLSg1W7')
+      .then(() => {
+        setFormStatus({ submitted: true, success: true, message: 'Message sent successfully!' });
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      })
+      .catch(() => {
+        setFormStatus({ submitted: true, success: false, message: 'Failed to send message. Please try again.' });
+      });
   };
 
   const contactInfo = [
@@ -138,10 +140,14 @@ const Contact: React.FC = () => {
               </button>
               
               {formStatus && (
-                <div className={`mt-4 p-3 rounded-lg ${formStatus.success ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400' : 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400'}`}>
-                  {formStatus.message}
-                </div>
-              )}
+              <div
+                role="status"
+                aria-live="polite"
+                className={`mt-4 p-3 rounded-lg ${formStatus.success ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400' : 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400'}`}
+              >
+                {formStatus.message}
+              </div>
+            )}
             </form>
           </div>
           
