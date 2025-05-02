@@ -32,6 +32,7 @@ function App() {
     <div className={darkMode ? 'dark' : ''}>
       <Analytics />
       <SpeedInsights/>
+      
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main>
         <Hero />
