@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
       id: 6,
       title: 'Invoice Similarity Matching System',
       description: 'The Invoice Similarity Matching System automaticizes incoming invoices categorization by associating them over existing templates or on previously treated ones. This framework uses a combination of text extraction, feature extraction, structural analysis and similarity calculation in order to be able to find out the invoice which has maximum similarities with some other data. The objective is to eliminate the need for manual allocation, so that invoice processing can be accomplished with ease and respect of data accuracy.',
-      image: 'https://media.licdn.com/dms/image/v2/D562DAQH1fFoW450thQ/profile-treasury-image-shrink_160_160/profile-treasury-image-shrink_160_160/0/1722439516464?e=1746288000&v=beta&t=h8pWsTouq3MqC6Fe8HSmUcPfcnWtFYWnm-isjNu9s-s',
+      image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/Invoice%20Similarity.jpg',
       category: 'web',
       link: '#'
     }
