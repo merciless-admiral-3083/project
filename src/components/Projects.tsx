@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
       id: 3,
       title: 'Chatbot',
       description: 'This is my project regarding a chatbot that i made using React, python and other tools',
-      image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1734017123741.jpg',
+      image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1734017123741.png',
       category: 'web',
       link: 'https://github.com/merciless-admiral-3083/AI_US'
     },
