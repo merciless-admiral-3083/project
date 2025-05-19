@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import Header from './components/Header';
 import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Contact from './components/Contact';
+
+const About = React.lazy(() => import('./components/About'));
+const Projects = React.lazy(() => import('./components/Projects'));
+const Skills = React.lazy(() => import('./components/Skills'));
+const Contact = React.lazy(() => import('./components/Contact'));
 import Footer from './components/Footer';
 import './styles/animations.css';
 
@@ -36,10 +37,12 @@ function App() {
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main>
         <Hero />
+        <Suspense fallback={<div className="text-center py-10 text-gray-500">Loading sections...</div>}>
         <About />
         <Projects />
         <Skills />
         <Contact />
+        </Suspense>
       </main>
       <Footer />
     </div>

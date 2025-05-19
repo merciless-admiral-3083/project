@@ -48,3 +48,8 @@
 .animation-delay-600 {
   animation-delay: 0.6s;
 }
+
+.blob {
+  will-change: transform;
+  contain: layout paint;
+}
