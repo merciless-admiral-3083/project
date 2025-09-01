@@ -8,6 +8,14 @@ const Projects: React.FC = () => {
   const projectsData: ProjectData[] = [
     {
       id: 1,
+      title: 'Neural Network GPT from Scratch',
+      description: 'Developing a GPT-style language model from first principles using only NumPy and custom-built neural network components. Implemented tokenization, self-attention, and transformer blocks without relying on high-level libraries. This project demonstrates advanced deep learning concepts and hands-on implementation of cutting-edge NLP architectures.',
+      image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/Screenshot%202025-08-27%20103737.png',
+      category: 'app',
+      link: '#'
+    },
+    {
+      id: 2,
       title: 'Stock Trading System',
       description: 'This is a project showing how to implement a stock trading strategy using a Simple Moving Average (SMA) Crossover approach with Python and PostgreSQL. It imports stock data from an Excel file into a database, implements a trading strategy based on short-term and long-term SMAs, and validates the data with unit tests. The project is divided into folders for data, database setup, strategy implementation, and testing, thus ensuring efficient management and execution of the trading strategy.',
       image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1734796608193.jpg',
@@ -15,7 +23,7 @@ const Projects: React.FC = () => {
       link: 'https://github.com/merciless-admiral-3083/Stock-Trading-Strategy'
     },
     {
-      id: 2,
+      id: 3,
       title: 'OTT Platform: PLAYZEN',
       description: 'Developed an online OTT Platform to stream movies, TV Shows, Web Series and much more! It tracks users interest and content preference for better recommendations! The app also does not require sign-in which makes it open-to-all!',
       image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1740989683037.jpg',
@@ -23,7 +31,7 @@ const Projects: React.FC = () => {
       link: '#'
     },
     {
-      id: 3,
+      id: 4,
       title: 'Chatbot',
       description: 'This is my project regarding a chatbot that i made using React, python and other tools',
       image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1734017123741.png',
@@ -31,15 +39,15 @@ const Projects: React.FC = () => {
       link: 'https://github.com/merciless-admiral-3083/AI_US'
     },
     {
-      id: 4,
-      title: 'AI Document Reader',
-      description: 'Developed an intelligent document processing system that uses advanced AI algorithms to analyze and engage with one or multiple documents uploaded by users. This system includes the following: ---Smooth upload and document handling. ---Ability to ask contextual questions and get accurate answers from the document(s). ---Enhanced natural language processing for a better user experience. ---Scalable and user-friendly interface to quickly explore the documents. This project represents the culmination of AI-based solutions, natural language understanding, and delivering practical applications to streamline document analysis and information retrieval.',
-      image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1734851602981.jpg',
+      id: 5,
+      title: 'Resume Skill Extractor',
+      description: 'Engineered an AI-powered skill extraction tool leveraging NLP pipelines (spaCy, regex, TF-IDF) for entity recognition from resumes. Built REST APIs with FastAPI, extracting resume skills with 85%+ accuracy and processing each file in under 2 seconds. Deployed the backend model and UI on a containerized dev environment using GitHub Actions.',
+      image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/Screenshot%202025-09-01%20213217.png',
       category: 'app',
-      link: 'https://github.com/merciless-admiral-3083/AI-Document-Reader'
+      link: '#'
     },
     {
-      id: 5,
+      id: 6,
       title: 'AI Restaurant Manager',
       description: 'My project is a restaurant appointment scheduling chatbot based on AI to facilitate quick and easy reservation booking for restaurants. It automates reservation management, minimizes manual labor, and improves customer satisfaction through real-time availability and instant confirmation.',
       image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1739775468506.jpg',
@@ -47,12 +55,12 @@ const Projects: React.FC = () => {
       link: 'https://github.com/merciless-admiral-3083/AI-Restro-Manager'
     },
     {
-      id: 6,
-      title: 'Invoice Similarity Matching System',
-      description: 'The Invoice Similarity Matching System automaticizes incoming invoices categorization by associating them over existing templates or on previously treated ones. This framework uses a combination of text extraction, feature extraction, structural analysis and similarity calculation in order to be able to find out the invoice which has maximum similarities with some other data. The objective is to eliminate the need for manual allocation, so that invoice processing can be accomplished with ease and respect of data accuracy.',
-      image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/Invoice%20Similarity.jpg',
-      category: 'web',
-      link: '#'
+      id: 7,
+      title: 'AI Document Reader',
+      description: 'Developed an intelligent document processing system that uses advanced AI algorithms to analyze and engage with one or multiple documents uploaded by users. Features smooth upload and document handling, ability to ask contextual questions and get accurate answers from the document(s), and enhanced natural language processing for a better user experience.',
+      image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1734851602981.jpg',
+      category: 'app',
+      link: 'https://github.com/merciless-admiral-3083/AI-Document-Reader'
     }
   ];
   
