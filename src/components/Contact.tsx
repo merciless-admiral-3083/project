@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    emailjs.send('service_ixg47id', 'template_tcqoust', formData, '2ycR_5RzyrTLSg1W7')
+    emailjs.send('service_1frswml', 'template_tcqoust', formData, '2ycR_5RzyrTLSg1W7')
       .then(() => {
         setFormStatus({ submitted: true, success: true, message: 'Message sent successfully!' });
         setFormData({ name: '', email: '', subject: '', message: '' });
