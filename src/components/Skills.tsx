@@ -5,19 +5,23 @@ import JavaLogo from './Images/java-svgrepo-com.svg';
 import PythonLogo from './Images/python-svgrepo-com.svg';
 import CLogo from './Images/c-svgrepo-com.svg';      
 import JsLogo from './Images/js-svgrepo-com.svg';
+import CppLogo from './Images/icons8-c++.svg';
 import HtmlLogo from './Images/html-5-svgrepo-com.svg';
+import Restapi from './Images/rest-api-icon.svg';
 import CssLogo from './Images/css-3-svgrepo-com.svg';
 import ReactLogo from './Images/react-svgrepo-com.svg';
 import NodeLogo from './Images/node-svgrepo-com.svg';
 import FlaskLogo from './Images/flask-svgrepo-com.svg';  
 import FastAPILogo from './Images/fastapi-svgrepo-com.svg';  
 import ExpressLogo from './Images/express-svgrepo-com.svg';  
+import postgre from './Images/postgresql-logo-svgrepo-com.svg';
 import JWTLogo from './Images/jwt-svgrepo-com.svg';  
 import MySQLLogo from './Images/mysql-svgrepo-com.svg';
 import MongoLogo from './Images/mongo-svgrepo-com.svg';
 import RedisLogo from './Images/redis-svgrepo-com.svg';  
 import TensorFlowLogo from './Images/tensorflow-svgrepo-com.svg';  
 import PyTorchLogo from './Images/pytorch-svgrepo-com.svg';  
+import oauth from './Images/oauth-svgrepo-com.svg';
 import PandasLogo from './Images/pandas-svgrepo-com.svg';  
 import NumpyLogo from './Images/numpy-svgrepo-com.svg';  
 import OpenCVLogo from './Images/opencv-svgrepo-com.svg';  
@@ -31,6 +35,12 @@ import Algorithms from './Images/brain-svgrepo-com.svg';
 import APIIntegration from './Images/api-interface-svgrepo-com.svg'; 
 import DataStructures from './Images/data-service-svgrepo-com.svg'; 
 import OOP from './Images/programming-svgrepo-com.svg'; 
+import huggingface from './Images/hf-logo.svg';
+import langchain from './Images/Langchain--Streamline-Simple-Icons.svg';
+import scikit from './Images/scikit-learn.svg';
+import docker from './Images/docker-svgrepo-com.svg';
+import streamlit from './Images/Streamlit.svg';
+import leetcode from './Images/leetcode.svg';
 
 
 const Skills: React.FC = () => {
@@ -44,6 +54,8 @@ const Skills: React.FC = () => {
         { name: 'Python', logo: <img src={PythonLogo} alt="Python" className="w-8 h-8" /> },
         { name: 'C', logo: <img src={CLogo} alt="C" className="w-8 h-8" /> },
         { name: 'JavaScript', logo: <img src={JsLogo} alt="JavaScript" className="w-8 h-8" /> },
+        { name: 'C++', logo: <img src={CppLogo} alt="C++" className="w-8 h-8" /> },
+
       ]
     },
     {
@@ -59,6 +71,11 @@ const Skills: React.FC = () => {
         { name: 'FastAPI', logo: <img src={FastAPILogo} alt="FastAPI" className="w-8 h-8" /> },
         { name: 'Express.js', logo: <img src={ExpressLogo} alt="Express.js" className="w-8 h-8" /> },
         { name: 'JWT', logo: <img src={JWTLogo} alt="JWT" className="w-8 h-8" /> },
+        { name: 'REST API', logo: <img src={Restapi} alt="REST API" className="w-8 h-8" /> },
+        { name: 'OAuth', logo: <img src={oauth} alt="OAuth" className="w-8 h-8" /> },
+        { name: 'PostgreSQL', logo: <img src={postgre} alt="PostgreSQL" className="w-8 h-8" /> },
+
+
       ]
     },
     {
@@ -82,6 +99,9 @@ const Skills: React.FC = () => {
         { name: 'NumPy', logo: <img src={NumpyLogo} alt="NumPy" className="w-8 h-8" /> },
         { name: 'OpenCV', logo: <img src={OpenCVLogo} alt="OpenCV" className="w-8 h-8" /> },
         { name: 'OpenAI', logo: <img src={OpenAILogo} alt="OpenAI" className="w-8 h-8" /> },
+        { name: 'Hugging Face', logo: <img src={huggingface} alt="Hugging Face" className="w-8 h-8" /> },
+        { name: 'LangChain', logo: <img src={langchain} alt="LangChain" className="w-8 h-8" /> },
+        { name: 'Scikit-Learn', logo: <img src={scikit} alt="Scikit-Learn" className="w-8 h-8" /> },
       ]
     },
     {
@@ -94,6 +114,8 @@ const Skills: React.FC = () => {
         { name: 'CI/CD', logo: <img src={CICDLogo} alt="CI/CD" className="w-8 h-8" /> },
         { name: 'VS Code', logo: <img src={VSCodeLogo} alt="VS Code" className="w-8 h-8" /> },
         { name: 'npm', logo: <img src={NpmLogo} alt="npm" className="w-8 h-8" /> },
+        { name: 'Docker', logo: <img src={docker} alt="Docker" className="w-8 h-8" /> },
+        { name: 'Streamlit', logo: <img src={streamlit} alt="Streamlit" className="w-8 h-8" /> },
       ]
     },
     {
@@ -105,6 +127,8 @@ const Skills: React.FC = () => {
         { name: 'Data Structures', logo: <img src={DataStructures} alt="Data Structures" className="w-8 h-8" /> },
         { name: 'OOP', logo: <img src={OOP} alt="OOP" className="w-8 h-8" /> },
         { name: 'API Integration', logo: <img src={APIIntegration} alt="API Integration" className="w-8 h-8" /> },
+        { name: 'Leetcode', logo: <img src={leetcode} alt="Leetcode" className="w-8 h-8" /> },
+
       ]
     },
   ];

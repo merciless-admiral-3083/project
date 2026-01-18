@@ -12,7 +12,7 @@ const Projects: React.FC = () => {
       description: 'Developing a GPT-style language model from first principles using only NumPy and custom-built neural network components. Implemented tokenization, self-attention, and transformer blocks without relying on high-level libraries. This project demonstrates advanced deep learning concepts and hands-on implementation of cutting-edge NLP architectures.',
       image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/Screenshot%202025-08-27%20103737.png',
       category: 'app',
-      link: '#'
+      link: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/Under%20Development.webp'
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
       description: 'Developed an online OTT Platform to stream movies, TV Shows, Web Series and much more! It tracks users interest and content preference for better recommendations! The app also does not require sign-in which makes it open-to-all!',
       image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1740989683037.jpg',
       category: 'app',
-      link: '#'
+      link: 'https://github.com/merciless-admiral-3083/PLAYZEN'
     },
     {
       id: 4,
@@ -44,7 +44,7 @@ const Projects: React.FC = () => {
       description: 'Engineered an AI-powered skill extraction tool leveraging NLP pipelines (spaCy, regex, TF-IDF) for entity recognition from resumes. Built REST APIs with FastAPI, extracting resume skills with 85%+ accuracy and processing each file in under 2 seconds. Deployed the backend model and UI on a containerized dev environment using GitHub Actions.',
       image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/Screenshot%202025-09-01%20213217.png',
       category: 'app',
-      link: '#'
+      link: 'https://github.com/merciless-admiral-3083/ResumeSkillPro'
     },
     {
       id: 6,
@@ -61,6 +61,30 @@ const Projects: React.FC = () => {
       image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1734851602981.jpg',
       category: 'app',
       link: 'https://github.com/merciless-admiral-3083/AI-Document-Reader'
+    },
+    {
+      id: 8,
+      title: 'QR Code Generator',
+      description: 'A sleek and responsive web application that allows users to generate and download QR codes for any URL in seconds.',
+      image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/1748158592980.jpg',
+      category: 'web',
+      link: 'https://github.com/merciless-admiral-3083/QR'
+    },
+    {
+      id: 9,
+      title: 'Invoice Similarity Matching System',
+      description: 'This framework uses a combination of text extraction, feature extraction, structural analysis and similarity calculation in order to be able to find out the invoice which has maximum similarities with some other data.',
+      image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/1722439516480.jpg',
+      category: 'web',
+      link: '#'
+    },
+    {
+      id: 10,
+      title: 'RAG Based Chatbot for Legal Domain Related Queries',
+      description: 'build a domain-specific RAG-based chatbot using LangChain, Hugging Face Transformers, and FAISS. The chatbot is designed to answer legal domain-related queries by retrieving relevant information from a vector store of legal documents and generating context-aware responses using a pre-trained language model.',
+      image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/1762066338211.png',
+      category: 'web',
+      link: 'https://github.com/merciless-admiral-3083/Expedien_RAG'
     }
   ];
   

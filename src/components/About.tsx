@@ -15,13 +15,14 @@ const About: React.FC = () => {
               I'm Jaspreet Singh Nahal, a Computer Science Student
             </h3>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-            Having experience working with recent web technologies such as React, TypeScript, Vite, and Tailwind CSS, I'm an expert at developing responsive and high-performing web applications.
-            My work centers on building smooth user experiences and clean, readable code. 
-            I love bringing ideas to life as intuitive digital experiences—be it a feature-packed portfolio website, an AI-driven chatbot, or a full-stack web app.
+            Software with intelligence that gives the impression of being purposeful, scalable, and thoughtfully designed is what I enjoy building. 
+            I frequently work at the point of union between all the development and applied AI; it could be designing low-latency APIs, data-driven backend crafting or modern language integrating into the products that I take care of. 
+            I give a lot of importance to clean architecture, performance, and systems that are easy to extend rather than quick hacks.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
-            When I am not coding, I like to read about contemporary UI/UX, work on personal or open-source technology projects, and see the world through outdoor photography.
-            I think the most effective digital experiences result from a combination of technical excellence and an authentic empathy for user needs—something that I always aim to balance in my work.
+            One of my main interests is the process of how ideas transition from theory to production. My curiosity has been a reason for my involvement in many projects including AI chatbots, trading systems, and first-principle language model development. 
+            During this period I have built a very strong problem-solving mentality through rigorous algorithmic practice, hackathons, and hands-on experimentation. 
+            I firmly believe that the finest software is produced when tech depth is paired with clarity of purpose and that’s the benchmark I set in everything I build.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mb-8">
