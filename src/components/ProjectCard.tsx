@@ -20,6 +20,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
           <a 
             href={project.link} 
+              target="_blank"
             className="text-white bg-blue-600 hover:bg-blue-700 p-3 rounded-full transition-all duration-300 transform translate-y-8 group-hover:translate-y-0"
             aria-label={`View ${project.title} project`}
           >
