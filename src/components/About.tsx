@@ -36,7 +36,7 @@ const About: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Location</h4>
-                <p className="text-gray-700 dark:text-gray-300">Noida, UP</p>
+                <p className="text-gray-700 dark:text-gray-300">New Delhi, India</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Availability</h4>
