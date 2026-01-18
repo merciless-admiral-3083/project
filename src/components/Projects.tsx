@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
       id: 4,
       title: 'Chatbot',
       description: 'This is my project regarding a chatbot that i made using React, python and other tools',
-      image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1734017123741.png',
+      image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/Gemini_Generated_Image_k6joz1k6joz1k6jo.png',
       category: 'web',
       link: 'https://github.com/merciless-admiral-3083/AI_US'
     },
@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
       id: 6,
       title: 'AI Restaurant Manager',
       description: 'My project is a restaurant appointment scheduling chatbot based on AI to facilitate quick and easy reservation booking for restaurants. It automates reservation management, minimizes manual labor, and improves customer satisfaction through real-time availability and instant confirmation.',
-      image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1739775468506.jpg',
+      image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/Gemini_Generated_Image_gz25ylgz25ylgz25.png',
       category: 'app',
       link: 'https://github.com/merciless-admiral-3083/AI-Restro-Manager'
     },
@@ -66,7 +66,7 @@ const Projects: React.FC = () => {
       id: 8,
       title: 'QR Code Generator',
       description: 'A sleek and responsive web application that allows users to generate and download QR codes for any URL in seconds.',
-      image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/1748158592980.jpg',
+      image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/Gemini_Generated_Image_swvh90swvh90swvh.png',
       category: 'web',
       link: 'https://github.com/merciless-admiral-3083/QR'
     },
