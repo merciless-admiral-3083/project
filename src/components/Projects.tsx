@@ -8,11 +8,11 @@ const Projects: React.FC = () => {
   const projectsData: ProjectData[] = [
     {
       id: 1,
-      title: 'Neural Network GPT from Scratch',
-      description: 'Developing a GPT-style language model from first principles using only NumPy and custom-built neural network components. Implemented tokenization, self-attention, and transformer blocks without relying on high-level libraries. This project demonstrates advanced deep learning concepts and hands-on implementation of cutting-edge NLP architectures.',
+      title: 'Context-Grounded GPT-RAG System',
+      description: 'Built and pretrained a GPT-style transformer from scratch in PyTorch with causal self-attention, custom initialization, and GPT-2 tokenization on 10B FineWeb-Edu tokens. Implemented Retrieval-Augmented Generation using Sentence Transformers and FAISS, achieving sub-200ms retrieval latency and reduced hallucinations via confidence-based gating.',
       image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/Screenshot%202025-08-27%20103737.png',
       category: 'app',
-      link: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/Under%20Development.webp'
+      link: 'https://github.com/merciless-admiral-3083/RAG-GPT'
     },
     {
       id: 2,
