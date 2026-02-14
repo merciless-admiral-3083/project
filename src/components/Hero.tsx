@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
           
           <div className="max-w-2xl mx-auto overflow-hidden">
             <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-8 animate-fade-in animation-delay-300">
-              I create beautiful digital experiences that inspire and engage
+              I create exceptional digital experiences that inspire and engage
             </p>
           </div>
           
