@@ -54,7 +54,7 @@ const About: React.FC = () => {
           <div className="order-1 lg:order-2 relative">
             <div className="aspect-square rounded-2xl overflow-hidden relative z-10 shadow-xl">
               <img
-                src="https://github.com/merciless-admiral-3083/project/raw/main/Images/1770651786620%20(1).jpg"
+                src="https://github.com/merciless-admiral-3083/project/raw/main/Images/WhatsApp%20Image%202023-11-18%20at%2021.04.59_dc3f1dc2.jpg"
                 alt="Jaspreet portrait"
                 className="w-full h-full object-cover"
               />
